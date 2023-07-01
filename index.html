@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="first_section">
+        <h1 class="title">music</h1>
+        <div class="des">description</div>
+      </div>
+      <div class="dp-section">
+        <img
+          id="rotate"
+          class="rotate-img"
+          src="https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?size=626&ext=jpg&ga=GA1.2.1161582165.1681565571&semt=sph"
+          alt="zs"
+        />
+      </div>
+
+      <div class="music-process">
+        <span class="line"></span>
+        <span class="last-circle"></span>
+        <span class="process-time">1:41</span
+        ><span class="total-time">3:31</span>
+      </div>
+
+      <div class="playlist">
+        <audio src="" id="music"></audio>
+        <div>
+          <span class="material-symbols-outlined prev" onclick="prev()">
+            skip_previous
+          </span>
+        </div>
+        <div class="play-shadow">
+          <span
+            id="play"
+            class="material-symbols-outlined play-btn"
+            onclick="p()"
+          >
+            play_arrow
+          </span>
+          <span class="material-symbols-outlined" id="pause" onclick="pa()">
+            pause
+          </span>
+        </div>
+        <div>
+          <span class="material-symbols-outlined next" onclick="next()">
+            skip_next
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
